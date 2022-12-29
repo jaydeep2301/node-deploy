@@ -8,5 +8,5 @@ app.listen(PORT,async ()=>{
 
 })
 app.get("/",async (req,res)=>{
-    return res.status(200).send("hello world")
+    return res.status(200).send("hello world");
 })
